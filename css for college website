@@ -1,0 +1,256 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family:  roboto, sans-serif;
+    font-size:18px;
+  
+    
+
+
+}
+.container{
+
+width: 1300px;
+margin: 0px auto;
+
+}
+.header{
+    background: #0055a4;
+    padding:5px;
+   
+}
+
+.header b{
+    background: whitesmoke;
+    color: rgb(208, 180, 18);
+    font-size:40px;
+    text-align: center;
+    margin-left: 9px;
+    border: rgb(6, 16, 65) solid 7px;
+    border-radius: 4px;
+}
+.header marquee{
+    font-size: 20px;
+    color: rgb(199, 234, 26);
+    width: 60%;
+    font-family: cursive;
+    
+}
+
+.logo{
+    float:left;
+    height: 150px;
+   border: rgb(6, 16, 65) solid 7px; 
+    padding: 3px;
+    border-radius: 5px;
+  
+}
+
+nav{
+    float:right;
+    padding: 25px 0px ;
+}
+nav a{
+    color:rgb(199, 234, 26);
+    font-size: 30px;
+    padding:  20px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic bold;
+}
+ 
+
+
+.gg{
+    background:#0055a4;
+    padding: 4px;
+    margin-top: 0.5%;
+    
+    
+}
+.slider img{
+    width: 100%;
+}
+.bg-color{
+    background: #004cff;
+}
+
+.main-section{
+    width: 100%;
+    float: left;
+    padding: 100px 0px 100px 0px;
+}
+
+.event{
+    width: 32%;
+    float: left;
+    background: white;
+    margin-right: 1%;
+}
+.event i{
+    color: black;
+    font-size: 14px;
+    font-weight: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+.event div{
+    padding: 10px;
+    background: #f7f7f7;
+   
+}
+
+
+.event .heading{
+    padding: 10px;
+    color: white;
+    background: #0055a4;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.event ul li{
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    list-style: none;
+}
+
+.campus-news span{
+    width: 20px;
+    float: left;
+}
+
+.event-date{
+    padding:8px 12px;
+    background: red;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    color: white;
+    margin-right: 10px;
+}
+
+.main section{
+    display: flex;
+}
+
+footer{
+    padding:3px;
+    background: #0055a4;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #0055a4;
+}
+.footerContainer{
+    width: 100%;
+    padding: 40px 20px 10px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+  
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    color: greenyellow;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
+#gg{
+    background-color: rgb(11, 111, 198);
+}
+.gg :hover{
+    color: red;
+}
+
+.box{
+    display: flex;
+    background-color: #0055a4;
+    width: 473px;
+    border: rgb(6, 16, 65) solid 7px;
+    margin-left: 160px;
+    border-radius: 4px;
+}
+.gg{
+    color:rgb(199, 234, 26);
+    font-weight: 600;
+    font-family:  sans-serif;
+}
