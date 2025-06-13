@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="header">
+    <div class="container">
+        <b>VITROX COLLEGE</b>
+        <img src="images.png" class="logo">
+        <div class="box">
+            <p class="gg">
+                An investment in knowledge pays the best interest!!!
+            </p>
+
+        </div>
+    </div>
+</div>
+
+
+
+<nav>
+    <div class="gg">
+        <a href="#"><i>HOME</a>
+        <a href="#">ACADEMICS</a>
+        <a href="#">ADMISSION</a>
+        <a href="#">GALLERY</a>
+    </div>
+</nav>
+<div class="slider">
+
+    <img src="image.png">
+    <br>
+    <br><br><br>
+    <hr style="height: 10px; background-color: rgb(31, 31, 154); border: 2pc; border-radius: 100px;">
+
+
+</div>
+<div class="main-section">
+    <div class="container">
+        <div class="event">
+            <h2 class="heading">Recent Events</h2>
+            <div>
+                <marquee direction="up" scrollamount="7" style="height: 340px;">
+                    <ul>
+                        <li><i>April 1: Annual Sports week is being held from June 2</i> </li>
+                        <li><i>April 2: 2nd semester exam form fill up notice</i> </li>
+                        <li><i>April 3: 4th semester result published</i> </li>
+                        <li><i>April 4: Farewell For 8th semester student</i> </li>
+                        <li><i>April 9: 6th semester Preboard from june 11</i> </li>
+                    </ul>
+                </marquee>
+
+
+            </div>
+        </div>
+        <div class=" event campus-news">
+            <h2 class="heading"> About Campus </h2>
+            <div style="display: flex;">
+                <div style="flex: 1; margin-right: 20px;">
+                    <img src="chairman.jpg" alt="First Image" style="width: 100%;">
+                    <h3>Dr.Goman Sharma</h3>
+                    <h5>Chairman, VITROX College</h5>
+                </div>
+                <div style="flex: 1;">
+                    <img src="president.jpg" alt="Second Image" style="width: 100%;">
+                    <h3>Dr.Herman Verma</h3>
+                    <h5>President, VITROX College</h5>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="gg">
+            <div class="event college-event">
+                <h2 class="heading">College Events</h2>
+                <div>
+                    <ul>
+                        <li>
+                            <span class="event-date">11<br> April</span>
+                            Career Fairs
+                            (Connecting students with potential employers and career opportunities.)
+                        </li>
+                        <br>
+                        <li>
+                            <span class="event-date">16<br> April</span>
+                            Guest Lectures
+                            (Bringing in experts to share their knowledge and experience.)
+                        </li>
+                        <br>
+                        <li>
+                            <span class="event-date">30<br> April</span>
+                            Seminars
+                            (Workshops and talks on various topics, including professional and life skills.)
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <br>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="">Contact Us: 977+987555322</a></li>
+                    <li><a href="">Email: vitrox34@gmail.com</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="footerBottom">
+            <p style="color: greenyellow;">Copyright &copy;2025; Designed by <span class="designer">VITROX
+                    COLLEGE</span></p>
+        </div>
+    </footer>
+
+
+
+</div>
+
+</body>
+
+</html>
